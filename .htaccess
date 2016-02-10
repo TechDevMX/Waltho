@@ -1,0 +1,35 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+# Remove www
+RewriteCond %{HTTP_HOST} ^www. [NC]
+RewriteRule .* http://waltho.solar%{REQUEST_URI} [R=301,L]
+
+# Do not rewrite existing files and directories
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L]
+
+# Do not rewrite already rewritten URLs, even if they do not exist, to prevent loops
+RewriteRule .php$ - [L]
+
+# URLs must end with a slash
+RewriteRule ^(.*[^/])$ $1/ [R=301,L]
+
+# If no rule could be applied, add a .php extension
+RewriteRule ^([^/]+)/$ $1.php [QSA,L]
+</IfModule>
+
+ErrorDocument 400 http://waltho.solar/error/
+ErrorDocument 401 http://waltho.solar/error/
+ErrorDocument 403 http://waltho.solar/error/
+ErrorDocument 404 http://waltho.solar/error/
+ErrorDocument 500 http://waltho.solar/error/
+ErrorDocument 502 http://waltho.solar/error/
+ErrorDocument 504 http://waltho.solar/error/

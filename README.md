@@ -1,2 +1,3 @@
-# waltho
-Website Waltho
+# Waltho
+
+Repository for [waltho.solar](http://waltho.solar)
