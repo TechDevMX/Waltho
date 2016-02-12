@@ -48,8 +48,13 @@ jQuery.migrateMute===void 0&&(jQuery.migrateMute=!0),function(e,t,n){function r(
 /* Configuraciones JS ------------------------------------------------------ */
 
 $(document).ready(function(){
-
-new WOW().init();
+var mq = window.matchMedia( "(min-width: 900px)" );
+var scroll = $(window).scrollTop();
+if (mq.matches) {
+  new WOW().init();
+} else {
+  // window width is less than 500px
+}
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -84,90 +89,90 @@ $('.fade').slick({
 var preg_1 = 0;
 $("#preg-1").click(function(){
 	if (preg_1 == 0) {
-        $('.preguntas-sec-2 #preg-1 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-1 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_1 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-1 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-1 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_1 --;
 	}
 });
 var preg_2 = 0;
 $("#preg-2").click(function(){
 	if (preg_2 == 0) {
-        $('.preguntas-sec-2 #preg-2 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-2 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_2 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-2 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-2 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_2 --;
 	}
 });
 var preg_3 = 0;
 $("#preg-3").click(function(){
 	if (preg_3 == 0) {
-        $('.preguntas-sec-2 #preg-3 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-3 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_3 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-3 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-3 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_3 --;
 	}
 });
 var preg_4 = 0;
 $("#preg-4").click(function(){
 	if (preg_4 == 0) {
-        $('.preguntas-sec-2 #preg-4 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-4 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_4 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-4 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-4 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_4 --;
 	}
 });
 var preg_5 = 0;
 $("#preg-5").click(function(){
 	if (preg_5 == 0) {
-        $('.preguntas-sec-2 #preg-5 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-5 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_5 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-5 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-5 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_5 --;
 	}
 });
 var preg_6 = 0;
 $("#preg-6").click(function(){
 	if (preg_6 == 0) {
-        $('.preguntas-sec-2 #preg-6 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-6 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_6 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-6 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-6 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_6 --;
 	}
 });
 var preg_7 = 0;
 $("#preg-7").click(function(){
 	if (preg_7 == 0) {
-        $('.preguntas-sec-2 #preg-7 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-7 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_7 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-7 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-7 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_7 --;
 	}
 });
 var preg_8 = 0;
 $("#preg-8").click(function(){
 	if (preg_8 == 0) {
-        $('.preguntas-sec-2 #preg-8 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-8 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_8 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-8 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-8 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_8 --;
 	}
 });
 var preg_9 = 0;
 $("#preg-9").click(function(){
 	if (preg_9 == 0) {
-        $('.preguntas-sec-2 #preg-9 img').attr('src','../images/arrow-orange-bot.png');
+        $('.preguntas-sec-2 #preg-9 img').attr('src', baseUrl + '/images/arrow-orange-bot.png');
         preg_9 ++;
 	}else{
-		$('.preguntas-sec-2 #preg-9 img').attr('src','../images/arrow-orange.png');
+		$('.preguntas-sec-2 #preg-9 img').attr('src', baseUrl + '/images/arrow-orange.png');
         preg_9 --;
 	}
 });

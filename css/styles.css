@@ -48,13 +48,8 @@
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
 /* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v9/RJMlAoFXXQEzZoMSUteGWFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-}
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -67,7 +62,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin */
@@ -91,36 +86,47 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 900;
-  src: local('Raleway Heavy'), local('Raleway-Heavy'), url(https://fonts.gstatic.com/s/raleway/v9/PKCRbVvRfd5n7BTjtGiFZPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  src: local('Raleway Black'), local('Raleway-Black'), url(https://fonts.gstatic.com/s/raleway/v9/PKCRbVvRfd5n7BTjtGiFZPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+/* latin */
 @font-face {
-  font-family: 'Amatic SC';
+  font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
-  src: local('Amatic SC'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v8/6UByihrsVPWtZ99tNMIgMFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Amatic SC';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v8/IDnkRTPGcrSVo50UyYNK7z0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin */
 @font-face {
-  font-family: 'Amatic SC';
+  font-family: 'Titillium Web';
   font-style: normal;
-  font-weight: 700;
-  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v8/IDnkRTPGcrSVo50UyYNK7-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr46gJz9aNFrmnwBdd69aqzY.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+/* latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprxP6Eu1_xfSBSoi9uie1FdE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Titillium WebBlack'), local('TitilliumWeb-Black'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr6C95lFCEhr9IpXC9cjRuaU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 html {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -136,8 +142,8 @@ html {
     width: 100%;
     height: 100%;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -217,6 +223,7 @@ ul{
 }
 a {
     transition: color 0.1s linear;
+    -webkit-transition: color 0.1s linear;
     background-color: transparent;
     color: #f26322;
     text-decoration: none;
@@ -227,7 +234,7 @@ a {
     font-size: 1em;
 }
 span {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 h1 a,
 h2 a,
@@ -326,6 +333,7 @@ header{
     padding-left: 20px;
     padding-top: 41px;
     transition: all 0.3s;
+    -webkit-transition: all 0.3s;
     padding-bottom: 34px;
 }
 .menu-principal li a{
@@ -363,6 +371,7 @@ header{
     display: inline-block;
     border-bottom: 4px solid #ffffff;
     transition: all .3s;
+    -webkit-transition: all .3s;
     padding: 10px 0 10px 0;
     margin-left: 20px;
     max-width: 160px;
@@ -501,16 +510,23 @@ footer div{
     background-size: cover;
 }
 .index-sec-1 p:first-child{
-    font-family: 'Amatic SC', cursive;
-    font-size: 72px;
-    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 58px;
+    font-weight: 500;
     color: #ffffff;
     text-align: center;
-    padding-top: 250px;
-    line-height: 1.5;
+    padding-top: 230px;
+    line-height: 1;
     text-transform: uppercase;
 }
+.index-sec-1 p:first-child span{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-weight: 900;
+}
 .index-sec-1 p:nth-child(2n){
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
@@ -520,6 +536,8 @@ footer div{
     text-align: center;
     display: block;
     transition: all 1s;
+    padding-bottom: 15px;
+    -webkit-transition: all 1s;
 }
 .index-sec-1 a:hover{
   margin-top: 70px;
@@ -545,6 +563,7 @@ footer div{
   font-size: 30px;
   padding-top: 30px;
   margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 
 img.spinner {
@@ -561,6 +580,7 @@ img.spinner {
 }
 #expenses-container > div {
   transition: all 0.4s;
+  -webkit-transition: all 0.4s;
 }
 #expenses-container a.expenses-back {
   display: inline-block;
@@ -579,6 +599,7 @@ img.spinner {
   background-color: #fff;
   margin-right: 15px;
   transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
   border-radius: 100%;
   vertical-align: middle;
 }
@@ -588,12 +609,13 @@ img.spinner {
   background-color: #ff7600;
 }
 #installation-type p:first-child {
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   padding-top: 30px;
   margin-bottom: 15px;
 }
 #installation-type p:last-child {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   color: #fff;
   padding: 25px 0 0;
@@ -617,6 +639,7 @@ img.spinner {
     left: calc(100% - 755px);
     top: calc(0% - 100px);
     background-image: url(../images/solar.png);
+    font-family: 'Raleway', sans-serif;
 }
 .solar_circle p{
         text-align: center;
@@ -699,6 +722,7 @@ img.spinner {
     margin-left: auto;
     min-height: 500px;
     transition: all .3s;
+    -webkit-transition: all .3s;
 }
 .index-sec-3 article ._index-sec-contenido:hover{
     background: #ff7600;
@@ -713,7 +737,7 @@ img.spinner {
     margin: 0;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1;
     padding-bottom: 40px;
     font-size: 48px;
@@ -723,6 +747,7 @@ img.spinner {
     color: #ffffff;
     font-size: 24px;
     padding-bottom: 40px;
+    font-weight: 400;
 }
 ._index-sec-contenido div a{
     color: #333333;
@@ -733,6 +758,7 @@ img.spinner {
     padding: 5px 0;
     display: block;
     transition: all .3s;
+    -webkit-transition: all .3s;
     max-width: 200px;
 }
 ._index-sec-contenido div a:hover{
@@ -740,6 +766,7 @@ img.spinner {
 }
 #fondocamb{
     transition: all 1s;
+     -webkit-transition: all 1s;
 }
 .index-sec-3 article ._index-sec-contenido-left{
     background: rgba(255, 118, 0, 0.7);
@@ -748,6 +775,7 @@ img.spinner {
     margin-right: auto;
     min-height: 500px;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .index-sec-3 article ._index-sec-contenido-left:hover{
     background: #ff7600;
@@ -762,7 +790,7 @@ img.spinner {
     margin: 0;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1;
     padding-bottom: 40px;
     font-size: 48px;
@@ -772,6 +800,7 @@ img.spinner {
     color: #ffffff;
     font-size: 24px;
     padding-bottom: 40px;
+    font-weight: 400;
 }
 ._index-sec-contenido-left div a{
     color: #333333;
@@ -782,6 +811,7 @@ img.spinner {
     padding: 5px 0;
     display: block;
     transition: all .3s;
+     -webkit-transition: all .3s;
     max-width: 200px;
 }
 ._index-sec-contenido-left div a:hover{
@@ -798,9 +828,10 @@ img.spinner {
 }
 .index-sec-4 h1{
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 48px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 .index-sec-4 article{
     max-width: 1170px;
@@ -819,13 +850,19 @@ img.spinner {
     border-left: 2px solid #ff7600;
     border-right: 2px solid #ff7600;
 }
+.index-sec-4 article ul li section {
+  text-align: center;
+}
+.index-sec-4 article ul li section img {
+  margin-left: 20px;
+}
 .index-sec-4 article ul li div{
     display: inline-block;
-    font-family: 'Amatic SC', cursive;
-    font-size: 60px;
-    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
     text-transform: uppercase;
-    width: 49%;
     color: #ffffff;
     vertical-align: top;
     text-align: center;
@@ -838,8 +875,8 @@ img.spinner {
 .index-sec-4 article ul li p{
     font-size: 18px;
     padding-top: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
     color: #ffffff;
     width: 95%;
     margin: 0 auto;
@@ -858,6 +895,7 @@ img.spinner {
     margin-top: 108px;
     border-radius: 10px;
     transition: all 0.2s;
+     -webkit-transition: all .2s;
 }
 .index-sec-4 a:hover{
   background-color: orangered;
@@ -872,6 +910,7 @@ img.spinner {
     max-width: 1170px;
     margin: 0 auto;
     text-align: center;
+    font-weight: 400;
 }
 .index-sec-5 a{
     display: block;
@@ -887,6 +926,7 @@ img.spinner {
     margin-top: 50px;
     border-radius: 10px;
     transition: all 0.2s;
+     -webkit-transition: all .2s;
 }
 .index-sec-5 a:hover{
   background-color: orangered;
@@ -913,14 +953,13 @@ img.spinner {
     margin: 0 auto;
 }
 .funciona-sec-1 h1{
-    font-size: 72px;
-    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
     margin: 0;
-    text-decoration: underline;
     line-height: 1;
     text-transform: uppercase;
-    font-weight: 100;
 }
 .funciona-sec-1 p{
     font-size: 24px;
@@ -936,15 +975,14 @@ img.spinner {
     padding-bottom: 100px;
 }
 .funciona-sec-2 .title_section_funciona-sec-2{
-    font-family: 'Amatic SC', cursive;
-    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
     color: #f46709;
     margin:0;
     text-align: left;
     line-height: 1;
     max-width: 770px;
     padding-bottom: 70px;
-    text-decoration: underline;
 }
 .funciona-sec-2 article ul{
     margin-bottom: 80px;
@@ -992,7 +1030,7 @@ img.spinner {
 .funciona-sec-2 article ul li p{
     font-size: 20px;
     color: #333333;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 1.3;
     font-weight: 500;
 }
@@ -1031,6 +1069,7 @@ img.spinner {
     color: #ffffff;
     width: 100%;
     max-width: 870px;
+    font-family: 'Raleway', sans-serif;
 }
 .acerca-sec-1 article .acerca-p2-head{
     max-width: 600px;
@@ -1056,6 +1095,7 @@ img.spinner {
 }
 .acerca-sec-2 b{
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 .acerca-sec-2 a{
     display: block;
@@ -1070,6 +1110,7 @@ img.spinner {
     margin-top: 50px;
     border: 3px solid #ffffff;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .acerca-sec-2 a:hover{
   background: white; color: #ff7600
@@ -1103,6 +1144,7 @@ img.spinner {
     font-weight: 600;
     color: #333333;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 .acerca-sec-3 article .acerca-t-p{
     padding-top: 20px;
@@ -1158,6 +1200,7 @@ img.spinner {
     font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 .acerca-sec-4 a{
     display: block;
@@ -1180,14 +1223,14 @@ img.spinner {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 .ahorros-sec-1 h1{
-    font-family: 'Amatic SC', cursive;
-    font-size: 72px;
-    text-decoration: underline;
+    font-size: 48px;
+    font-weight: 700;
     color: #ffffff;
     text-align: center;
-    padding-top: 162px;
+    padding-top: 230px;
     line-height: 1.5;
     text-transform: uppercase;
     margin: 0;
@@ -1213,6 +1256,7 @@ img.spinner {
     color: #ff7600;
     font-weight: 400;
     margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 .ahorros-sec-2 p{
     color: #333333;
@@ -1245,6 +1289,7 @@ img.spinner {
     font-size: 42px;
     font-weight: 700;
     padding-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 .ahorros-sec-3 p{
     font-size: 20px;
@@ -1293,6 +1338,7 @@ img.spinner {
     font-size: 36px;
     color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 .ahorros-sec-4 article div p{
     font-size: 20px;
@@ -1329,6 +1375,7 @@ img.spinner {
     color: #ffffff;
     font-weight: 900;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 .ahorros-sec-5 article p{
     font-weight: 400;
@@ -1363,6 +1410,7 @@ img.spinner {
     background-size: cover;
     background-position: top;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 .caso-sec-1 h1{
   max-width: 1030px;
@@ -1393,7 +1441,7 @@ img.spinner {
   text-transform: uppercase;
 }
 .caso-sec-1 p:last-child{
-    vertical-align: top;
+  vertical-align: top;
     font-size: 24px;
     max-width: 500px;
     display: inline-block;
@@ -1520,17 +1568,18 @@ img.spinner {
     background-repeat: no-repeat;
     padding-top: 150px;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 .casos-sec-1 h1{
     text-transform: uppercase;
-    font-size: 72px;
+    font-size: 48px;
+    font-weight: 700;
     margin: 0 auto;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
     width: 95%;
     line-height: 1;
     color: #ffffff;
     padding-bottom: 20px;
-    text-decoration: underline;
     text-align: center;
 }
 .casos-sec-1 p{
@@ -1571,6 +1620,7 @@ img.spinner {
 }
 .contenedor-hover{
   transition: all .3s;
+   -webkit-transition: all .3s;
 }
 .contenedor-imagen-casos:hover .casos-descripcion{
   border-color: #ff7600;
@@ -1586,6 +1636,7 @@ img.spinner {
   top: -179px;
   opacity: 0;
   transition: all .3s;
+   -webkit-transition: all .3s;
   list-style: none;
 }
 .casos-list-1 li{
@@ -1622,10 +1673,12 @@ img.spinner {
   font-size: 23px;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
 }
 .casos-descripcion span{
   text-transform: uppercase;
   font-size: 23px;
+  font-family: 'Raleway', sans-serif;
 }
 .casos-list-2{
   list-style: none;
@@ -1669,6 +1722,7 @@ img.spinner {
     padding: 50px 0 50px 0;
     background: #ff7600;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 .financiamiento-sec-1 h1{
     width: 90%;
@@ -1677,6 +1731,7 @@ img.spinner {
     font-weight: 700;
     color: #ffffff;
     padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 .financiamiento-sec-1 p{
     max-height: 970px;
@@ -1700,6 +1755,7 @@ img.spinner {
     border: 3px solid #ffffff;
     font-size: 20px; padding: 10px; border-radius: 10px; max-width: 240px; margin: 14px auto;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .financiamiento-sec-1 a:hover{
   background: white; color: #ff7600; 
@@ -1805,6 +1861,7 @@ img.spinner {
     max-width: 570px;
     font-size: 24px;
     font-weight: 400;
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
 .financiamiento-sec-2 article a{
@@ -1820,6 +1877,7 @@ img.spinner {
     float: right;
     font-size: 20px; padding: 10px; border-radius: 10px; max-width: 240px; margin: 14px auto;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .financiamiento-sec-2 article a:hover{
    background: white; color: #ff7600; 
@@ -1832,6 +1890,7 @@ img.spinner {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
 }
 .preguntas-sec-1 article{
     width: 95%;
@@ -1861,6 +1920,7 @@ img.spinner {
     font-weight: 500;
     padding-bottom: 20px;
     font-size: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 .preguntas-sec-2 h2 img{
     padding-right: 10px;
@@ -1888,6 +1948,7 @@ img.spinner {
     width: 95%;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 .preguntas-sec-3 p{
     width: 95%;
@@ -1912,6 +1973,7 @@ img.spinner {
     font-weight: 400;
     max-width: 230px;
     transition: all .3s;
+     -webkit-transition: all .3s;
     font-size: 20px; padding: 10px; border-radius: 10px; max-width: 240px; margin: 14px auto;
 }
 .preguntas-sec-3 a:hover{
@@ -1931,14 +1993,13 @@ img.spinner {
     color: #ffffff;
     max-width: 970px;
     margin: 0 auto;
-    padding: 2% 5%;
+    padding: 70px 5%;
     position: relative;
 }
 .popup-form section h2{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    text-decoration: underline;
-    font-size: 72px;
+    font-size: 48px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
@@ -1956,7 +2017,7 @@ img.spinner {
 }
 .popup-form section form {
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
@@ -1969,11 +2030,11 @@ img.spinner {
     color: #ffffff;
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 .popup-form section form textarea{
     width: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     border: none;
     border-bottom: 2px solid #ffffff;
     background-color: transparent;
@@ -2110,6 +2171,7 @@ img.spinner {
     border-radius: 5px;
     padding-top: 7px;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .funciona-sec-3 .info a.button:hover{
     background: #ffffff;
@@ -2129,11 +2191,9 @@ img.spinner {
 }
 .contenedor-secciones h2 {
     color: #ff7600;
-    font-size: 60px;
+    font-size: 48px;
     width: auto;
-    text-decoration: underline;
-    font-family: 'Amatic SC';
-    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
         text-align: left !important;
     margin: 70px 0 !important;
 }
@@ -2145,7 +2205,7 @@ section .renglon img {
     vertical-align: top;
     max-height: 60px;
     padding: 7px 4px;
-    /* float: left; */
+    float: none;
     margin-right: 30px;
     display: inline-block;
     position: relative;
@@ -2183,6 +2243,7 @@ section .link {
     font-size: 20px;
     font-weight: 700;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 section.contacto {
     width: 100%;
@@ -2202,6 +2263,7 @@ section.contacto {
     display: block;
     border-radius: 5px;
     padding-top: 7px;
+     -webkit-transition: all .3s;
     transition: all .3s;
 }
 .contacto a.button:hover{
@@ -2213,6 +2275,7 @@ section.contacto {
     color: #fff;
     font-size: 20px; padding: 10px; border-radius: 10px; max-width: 240px; margin: 14px auto;
     transition: all .3s;
+     -webkit-transition: all .3s;
 }
 .casos_fot article a:hover{
   background: white; color: #ff7600; 
@@ -2243,7 +2306,7 @@ section .link span:last-child {
 .boton-responsive-menu{
   float: right;
   padding-top: 35px;
-  padding-right: 10px;
+  padding-right: 20px;
   display: none;
 }
     .boton-responsive-menu img{
@@ -2288,6 +2351,7 @@ section .link span:last-child {
       background: #ffffff;
       top: 110px;
       transition: all .3s;
+       -webkit-transition: all .3s;
       left: -90%;
     }
     .menu-responsive a{
@@ -2297,6 +2361,7 @@ section .link span:last-child {
       padding: 5px;
       color: #333333;
       transition: all .3s;
+       -webkit-transition: all .3s;
       font-weight: 500;
     }
     .menu-responsive a:hover{
@@ -2312,17 +2377,100 @@ section .link span:last-child {
       left: -90%;
     }
 }
+.productos-img-head{
+    padding-bottom: 20px;
+    display: none;
+    margin: 0 auto;
+    max-width: 271px;
+}
+.funciona-sec-2 figure .productos-funciona{
+  display: none;
+}
 @media screen and (max-width: 500px){
-  .index-sec-1 p:first-child,
-  .index-sec-4 article ul li div,
-  .casos-sec-1 h1,
-  .funciona-sec-1 h1,
-  .funciona-sec-2 .title_section_funciona-sec-2,
-  .contenedor-secciones h2,
-  .popup-form section h2{
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    text-decoration: none;
+  .funciona-sec-2 .svg-true svg{
+    display: none;
+}
+.funciona-sec-2 figure .productos-funciona{
+  display: inline-block;
+      max-width: 446px;
+      width: 100%;
+}
+  .svg-producto-head{
+    display: none;
+  }
+  .productos-img-head{
+    display: block;
+  }
+  .index-sec-1 p:first-child,.index-sec-4 article ul li div,.casos-sec-1 h1,.funciona-sec-1 h1,.funciona-sec-2 .title_section_funciona-sec-2,.contenedor-secciones h2,.popup-form section h2{
+       font-family: 'Raleway', sans-serif;
+       font-size: 35px;
+       text-decoration: none;
+  }
+  .svg-logo {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+        max-height: 80px;
+    margin-top: 10px;
+}
+  .index-sec-3 article ._index-sec-contenido:hover{
+    background: rgba(255, 118, 0, 0.7);
+  }
+  .index-sec-3 article ._index-sec-contenido-left:hover{
+    background: rgba(255, 118, 0, 0.7);
+  }
+  section.inversion p{
+    width: 100%;
+  }
+  section .renglon img {
+    width: 50px;
+    vertical-align: top;
+    max-height: 60px;
+    padding: 7px 4px;
+    float: none;
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+section.inversion img {
+     width: 50px;
+    vertical-align: top;
+    max-height: 60px;
+    padding: 7px 4px;
+    float: none;
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+  .funciona-sec-1 {
+    min-height: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+  .caso-sec-1 {
+    padding: 20px 0 20px 0;}
+  .preguntas-sec-1 {
+    min-height: inherit;
+    padding: 20px 0 20px 0;
+}
+  .preguntas-sec-1 article h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+}
+  .popup-form section p {
+    padding: 20px 10px 20px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+  .popup-form a.b-close{
+    top: 10px;
+    right: 10px;
   }
   .footer-logo, .info-footer{
     float: none;
@@ -2358,7 +2506,7 @@ section .link span:last-child {
     padding: 20px 0;
 }
 .index-sec-1 p:first-child{
-  padding-top: 0px;
+  padding-top: 30px;
 }
 .index-sec-1{
   min-height: inherit;
@@ -2366,13 +2514,10 @@ section .link span:last-child {
 .index-sec-2{
   display: none;
 }
-.index-sec-3 article ._index-sec-contenido div {
-    padding-top: 30px;
-}
-.index-sec-3 article ._index-sec-contenido-left div{
+.index-sec-3 article ._index-sec-contenido-left div, .index-sec-3 article ._index-sec-contenido div{
   padding: 30px 0;
 }
-.index-sec-3 article ._index-sec-contenido-left{
+.index-sec-3 article ._index-sec-contenido-left, .index-sec-3 article ._index-sec-contenido{
   min-height: inherit;
 }
 .index-sec-3 article{
@@ -2421,7 +2566,7 @@ section .link span:last-child {
   margin: 5px;
 }
 .funciona-sec-2 .title_section_funciona-sec-2, .contenedor-secciones h2{
-  font-size: 40px;
+  font-size: 22px;
 }
 .funciona-sec-2 {
     padding-top: 20px;
@@ -2438,12 +2583,19 @@ section .link{
 }
 section.inversion p {
     font-size: 14px;
+    text-align: center;
+  }
+  .preguntas-sec-1 article p{
+    padding: 0px;
   }
   section .renglon p{
     font-size: 14px;
+    width: 100%;
+    text-align: center;
   }
   .descripcion_producto{
     font-size: 14px;
+    text-align: center;
   }
   .caso-sec-1 .derecha {
     text-align: center;
@@ -2462,7 +2614,7 @@ section.inversion p {
     line-height: 1;
 }
 .caso-sec-2 ul li{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .caso-sec-3 .contenedor-caso-sec-3 {
     display: block;
@@ -2477,6 +2629,7 @@ section.inversion p {
 }
 .slick-prev:before, .slick-next:before{
   transition: all .3s;
+   -webkit-transition: all .3s;
 }
 .caso-sec-3 .slider-caso-sec-3 .slick-prev:hover:before, .caso-sec-3 .slider-caso-sec-3 .slick-prev:focus:before{
 content: url(../images/prev-h.png);

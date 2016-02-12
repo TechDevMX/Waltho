@@ -1,4 +1,5 @@
 <?php
+ob_start("ob_gzhandler");
 require_once(__DIR__ . '/classes/Tools.php');
 
 if ( !isset($headerMeta) || !is_array($headerMeta) ) { $headerMeta = array(); }
@@ -50,7 +51,7 @@ if ( empty($headerMeta['description']) ) {
     <nav class="menu-header">
         <a class="logo" href="<?php echo Tools::getBaseUrl(); ?>/"><div class='cont_svg_logo'>
 
-        <svg xmlns='http://www.w3.org/2000/svg' xml:space='preserve'  version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd'
+        <svg class="svg-logo" xmlns='http://www.w3.org/2000/svg' xml:space='preserve'  version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd'
         viewBox='0 0 31142 15143'
          xmlns:xlink='http://www.w3.org/1999/xlink'>
          <defs>

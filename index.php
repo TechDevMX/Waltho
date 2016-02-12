@@ -1,7 +1,7 @@
 <?php require_once(__DIR__ .'/header.php'); ?>
 
       <section class="index-sec-1" id="fondocamb">
-          <p>Soluciones y Desarrollos Sustentables</p>
+          <p>Soluciones y Desarrollo <span>Sustentable</span></p>
           <p>Sistemas fotovoltaicos, calentadores de agua, luminarias y más…</p>
           <a href="#index-paneles"rel="m_PageScroll2id"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-bot.png" alt=""></a>
       </section>
@@ -89,18 +89,24 @@
         <article>
           <ul>
             <li>
-              <div>Elige.</div>
-              <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/presentacion.png" alt=""></div>
+              <section>
+                <div>Elige</div>
+                <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/presentacion.png" alt=""></div>
+              </section>
               <p>Mediante nuestro diagnóstico y análisis, hacemos recomendaciones sobre las soluciones adecuadas para ti. Nosotros estamos aquí para ayudarte a entender tus posibilidades y crear una solución a tu medida.</p>
             </li>
             <li>
-              <div>Instala.</div>
-              <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/cog.png" alt=""></div>
+              <section>
+                <div>Instala</div>
+                <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/cog.png" alt=""></div>
+              </section>
               <p>Nuestro equipo de expertos va a su ubicación y profesionalmente instala los equipos requeridos. Al mismo tiempo asegurandose de que se integre correctamente a sus equipos existentes.</p>
             </li>
             <li>
-              <div>Ahorra.</div>
-              <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/sun.png" alt=""></div>
+              <section>
+                <div>Ahorra</div>
+                <div><img src="<?php echo Tools::getBaseUrl(); ?>/images/sun.png" alt=""></div>
+              </section>
               <p>Mediante nuestra app, a cualquier hora del día puedes ver como tus equipos están aprovechando el sol también, cuanto dinero y energía te estas ahorrando.</p>
             </li>
           </ul>

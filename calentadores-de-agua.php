@@ -14,9 +14,8 @@ $headerMeta['description'] = 'En Waltho te ofrecemos la mejor solución en Calen
 </style>
 		<section class="funciona-sec-1" style="background: url(<?php echo Tools::getBaseUrl(); ?>/images/calentador-de-agua.jpg);">
 		<div class="svg1">
-                
-                <svg style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                viewBox="0 0 7967 5627">
+      <img class="productos-img-head" src="<?php echo Tools::getBaseUrl(); ?>/images/calentador.png" alt="calentadores de agua">
+      <svg class="svg-producto-head" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 7967 5627">
                  <defs>
                   <style type="text/css">
                    <![CDATA[
@@ -108,8 +107,8 @@ $headerMeta['description'] = 'En Waltho te ofrecemos la mejor solución en Calen
 		  <article>
 		    <figure class="figura1">
 		      <div class="svg2">
-                    <svg  xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                    viewBox="0 0 31268 18578">
+            <img class="productos-funciona" src="<?php echo Tools::getBaseUrl(); ?>/images/calentador1.png" alt="calentadores de agua">
+            <svg xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 31268 18578">
                      <defs>
                       <style type="text/css">
                        <![CDATA[

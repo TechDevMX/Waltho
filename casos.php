@@ -30,7 +30,7 @@
                  <b>Ahora con Waltho: </b><span>$1,700.00 MXN</span><br>
                  Retorno de inversión: 2.5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-1/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-1/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -61,7 +61,7 @@
                  <b>Ahora con Waltho: </b><span>$278.00 MXN</span><br>
                  Retorno de inversión: 4 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-4/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-4/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -92,7 +92,7 @@
                  <b>Ahora con Waltho: </b><span>$2,666.00 MXN</span><br>
                  Retorno de inversión: 4.5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-6/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-6/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -123,7 +123,7 @@
                  <b>Ahora con Waltho: </b><span>$893.00 MXN</span><br>
                  Retorno de inversión: 4 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-7/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-7/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -155,7 +155,7 @@
                  <b>Ahora con Waltho: </b><span>$137.00 MXN</span><br>
                  Retorno de inversión: 5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-8/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-8/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -187,7 +187,7 @@
                  <b>Ahora con Waltho: </b><span>$184.00 MXN</span><br>
                  Retorno de inversión: 3 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-9/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-9/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -219,7 +219,7 @@
                  <b>Ahora con Waltho: </b><span>$118.10 MXN</span><br>
                  Retorno de inversión: 5.2 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-10/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-10/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -251,7 +251,7 @@
                  <b>Ahora con Waltho: </b><span>$-------.00 MXN</span><br>
                  Retorno de inversión: 5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-2/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-2/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -283,7 +283,7 @@
                  <b>Ahora con Waltho: </b><span>$-------.00 MXN</span><br>
                  Retorno de inversión: 4.5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-3/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-3/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>
@@ -317,7 +317,7 @@
                  <b>Ahora con Waltho: </b><span>N/A</span><br>
                  Retorno de inversión: 4.5 años
                </li>
-               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-5/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt=""> Ver detalles</a></li>
+               <li><a href="<?php echo Tools::getBaseUrl(); ?>/caso-5/"><img src="<?php echo Tools::getBaseUrl(); ?>/images/arrow-orange.png" alt="">Ver detalles</a></li>
              </ul>
            </div>
          </div>

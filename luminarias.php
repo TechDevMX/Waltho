@@ -9,8 +9,8 @@
 </style>
 		<section class="funciona-sec-1" style="background: url(<?php echo Tools::getBaseUrl(); ?>/images/postesluz.jpg);">
 			<div class="cont">
-<svg style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 31165 19538">
+        <img class="productos-img-head" src="<?php echo Tools::getBaseUrl(); ?>/images/luces3.png" alt="luminarias">
+        <svg class="svg-producto-head" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 31165 19538">
  <defs>
   <style type="text/css">
    <![CDATA[
@@ -126,9 +126,8 @@ Y es normal, porque casi todo lo relacionado con la tecnología Light Emitting D
       <article>
         <figure class="figura1">
           <div class="svg2">
-            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 36115 21089"
- xmlns:xlink="http://www.w3.org/1999/xlink">
+            <img class="productos-funciona" src="<?php echo Tools::getBaseUrl(); ?>/images/luces1.png" alt="luminarias">
+            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 36115 21089" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[

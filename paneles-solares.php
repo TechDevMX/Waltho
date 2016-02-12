@@ -14,20 +14,28 @@ $headerMeta['description'] = 'En Waltho te ofrecemos la mejor solución en Panel
 </style>
 		<section class="funciona-sec-1" style="background: url(<?php echo Tools::getBaseUrl(); ?>/images/paneles-12.jpg);">
 			<div class="cont">
-        <svg style="z-index:0" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 42442 19143"
- xmlns:xlink="http://www.w3.org/1999/xlink">
+        <img class="productos-img-head" src="<?php echo Tools::getBaseUrl(); ?>/images/panel3.png" alt="paneles solares">
+        <svg class="svg-producto-head" style="z-index:0" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 42442 19143" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0-h {animation: 4s dash forwards; opacity: 1;stroke:#ffffff;stroke-width:200;stroke-linecap:round;stroke-linejoin:round}
+    .fil0-h {-webkit-animation: 4s dash forwards; animation: 4s dash forwards; opacity: 1;stroke:#ffffff;stroke-width:200;stroke-linecap:round;stroke-linejoin:round}
     .fil0-h {fill:none; stroke-dasharray: 40000; stroke-dashoffset: 40000;}
     
-    .cable-h {animation-delay: .5s;}
-    .sol-h circle{animation-delay: .25s;}
-    .sol-h line{animation-delay: 1s;}
+    .cable-h {animation-delay: .5s; -webkit-animation-delay: .5s;}
+    .sol-h circle{animation-delay: .25s; -webkit-animation-delay: .25s;}
+    .sol-h line{animation-delay: 1s; -webkit-animation-delay: 1s;}
     
     @keyframes dash {
+      from {
+            stroke-dashoffset: 40000;
+          }
+        to {
+          stroke-dashoffset: 0;
+          stroke:#ffffff;
+        }
+    }
+    @-webkit-keyframes dash{
       from {
             stroke-dashoffset: 40000;
           }
@@ -104,9 +112,8 @@ Los paneles solares están formados por numerosas celdas que convierten la luz e
       <article>
         <figure class="figura1">
           <div class="svg2">
-                   <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 36518 18542"
- xmlns:xlink="http://www.w3.org/1999/xlink">
+            <img class="productos-funciona" src="<?php echo Tools::getBaseUrl(); ?>/images/panel1.png" alt="paneles solares">
+            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 36518 18542" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[

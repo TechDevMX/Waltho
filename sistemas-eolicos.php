@@ -11,8 +11,9 @@
 </style>
 		<section class="funciona-sec-1" style="background: url(<?php echo Tools::getBaseUrl(); ?>/images/sistemas-eolicos.jpg);">
 			<div class="cont">
-<svg style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 21227 16687">
+        <img class="productos-img-head" src="<?php echo Tools::getBaseUrl(); ?>/images/eolico.png" alt="sistemas eolicos">
+        <svg class="svg-producto-head" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+        viewBox="0 0 21227 16687">
  <defs>
   <style type="text/css">
    <![CDATA[
@@ -73,6 +74,7 @@ viewBox="0 0 21227 16687">
       <article>
         <figure class="figura1">
           <div class="svg2">
+                    <img class="productos-funciona" src="<?php echo Tools::getBaseUrl(); ?>/images/eolico1.png" alt="sistemas eolicos">
                     <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 38616 21370"
  xmlns:xlink="http://www.w3.org/1999/xlink">
